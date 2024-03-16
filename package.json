@@ -1,0 +1,16 @@
+{
+  "name": "desktop-app",
+  "version": "1.0.0",
+  "description": "Desktop app",
+  "main": "app.js",
+  "repository": "git@github.com:ufsowa/desktop-app.git",
+  "author": "Piotr Sowa <piotrsowa87@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ./app/index.html"
+  },
+
+  "dependencies": {
+    "electron": "5.0.6"
+  }
+}
